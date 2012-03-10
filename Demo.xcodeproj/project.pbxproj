@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8A6564E1150BEEFF00A66B6C /* Colors.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Colors.tiff; sourceTree = "<group>"; };
+		8A6564E2150BEEFF00A66B6C /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = General.png; sourceTree = "<group>"; };
+		8A6564E3150BEEFF00A66B6C /* Playback.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Playback.tiff; sourceTree = "<group>"; };
+		8A6564E4150BEEFF00A66B6C /* Updates.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Updates.tiff; sourceTree = "<group>"; };
+		8A6564E7150BEF7600A66B6C /* application.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = application.rb; sourceTree = "<group>"; };
+		8A6564E8150BEF7600A66B6C /* bootstrap.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = bootstrap.rb; sourceTree = "<group>"; };
+		8A6564EA150BEF7600A66B6C /* PreferencesWinController.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = PreferencesWinController.rb; sourceTree = "<group>"; };
+		8A6564EC150BEF7600A66B6C /* PreferencesView.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = PreferencesView.rb; sourceTree = "<group>"; };
+		8A6564F1150BEFB900A66B6C /* Preferences.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Preferences.nib; sourceTree = "<group>"; };
+		8A6564F2150C02CB00A66B6C /* Advanced.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advanced.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8A6564D3150BEED900A66B6C = {
+			isa = PBXGroup;
+			children = (
+				8A6564E6150BEF7600A66B6C /* lib */,
+				8A6564DF150BEEFF00A66B6C /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6564DF150BEEFF00A66B6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A6564F1150BEFB900A66B6C /* Preferences.nib */,
+				8A6564E1150BEEFF00A66B6C /* Colors.tiff */,
+				8A6564E2150BEEFF00A66B6C /* General.png */,
+				8A6564E3150BEEFF00A66B6C /* Playback.tiff */,
+				8A6564E4150BEEFF00A66B6C /* Updates.tiff */,
+				8A6564F2150C02CB00A66B6C /* Advanced.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A6564E6150BEF7600A66B6C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8A6564E7150BEF7600A66B6C /* application.rb */,
+				8A6564E8150BEF7600A66B6C /* bootstrap.rb */,
+				8A6564E9150BEF7600A66B6C /* controllers */,
+				8A6564EB150BEF7600A66B6C /* views */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8A6564E9150BEF7600A66B6C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A6564EA150BEF7600A66B6C /* PreferencesWinController.rb */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		8A6564EB150BEF7600A66B6C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8A6564EC150BEF7600A66B6C /* PreferencesView.rb */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8A6564D5150BEED900A66B6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8A6564D8150BEED900A66B6C /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A6564D3150BEED900A66B6C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8A6564DA150BEED900A66B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8A6564DB150BEED900A66B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A6564D8150BEED900A66B6C /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6564DA150BEED900A66B6C /* Debug */,
+				8A6564DB150BEED900A66B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A6564D5150BEED900A66B6C /* Project object */;
+}

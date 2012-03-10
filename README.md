@@ -1,0 +1,1 @@
+Demo app for [https://github.com/bookworm/rpreferences](https://github.com/bookworm/rpreferences) a Macruby preferences controller.

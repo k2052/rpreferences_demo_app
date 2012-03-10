@@ -1,0 +1,3 @@
+[submodule "lib/rpreferences"]
+	path = lib/rpreferences
+	url = git://github.com/bookworm/rpreferences.git
